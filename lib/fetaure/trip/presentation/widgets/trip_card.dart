@@ -42,7 +42,7 @@ class TripCard extends StatelessWidget {
                           Icons.error,
                         )),
 
-                // Layer 2: First gradient overlay (60px fade)
+              
                 Positioned(
                   bottom: 0,
                   left: 0,

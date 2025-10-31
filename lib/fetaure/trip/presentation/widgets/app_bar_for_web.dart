@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_web_task/core/themes/assets.dart';
 
@@ -70,8 +71,8 @@ class AppBarForWeb extends StatelessWidget implements PreferredSizeWidget {
             const SizedBox(width: 16),
             const CircleAvatar(
               radius: 18,
-              backgroundImage: NetworkImage(
-                'https://i.pravatar.cc/150?img=33',
+              backgroundImage: CachedNetworkImageProvider(
+               "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
               ),
             ),
             const SizedBox(width: 8),
